@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: orange;
+  }
+  
+  h1 {
+    font-family: "Poiret One";
+    font-size: 1.5rem;
+    text-align: center;
+    clear: both;
+  }
+  
+  p {
+    font-family: "Poiret One";
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .sketchy {
+    max-width: 100%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    /* background-image: url("http://jdswebs.net/img/css-background-blue.jpg"); */
+    background-color: #cccccc;
+    margin-top: -10px;
+  }
+  .sketchy canvas {
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #999;
+    cursor: crosshair;
+  }
+  .sketchy #marker-container {
+    max-width: 200px;
+    background: #333;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 10px;
+    float: right;
+  }
+  .sketchy #marker-container h2 {
+    color: #FFF;
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-size: 1.2rem;
+  }
+  
+ 
+  
+  #shape {
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 15px solid #999;
+    margin: 5px auto;
+  }
+  
+  .copyright {
+    text-align: center;
+  }

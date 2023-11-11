@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit recognizer</title>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Draw a digit and hit predict </h1>
+    </header>
+    <section>
+        <div class="sketchy">
+            <article>
+                <div>
+                    {% if topic %}
+                    <h3>you drew {{topic}}</h3>
+                    {% endif %}
+                    <div>
+                       
+                        <button class="btn btn-primary" id="clear">Clear Pad </button>
+                        <button class="btn btn-primary" onclick="saveImage()" > Predict</button>
+                    </div>
+                    <div>
+                        <canvas width="600" height="300" id="canvas"></canvas>
+                    </div><!--  class="medium-9 column" data-equalizer-watch -->
+                </div> <!--  class="row" -->
+            </article>
+        </div> <!-- .sketchy -->
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='new.js')}}"></script>
+</body>
+
+</html>
