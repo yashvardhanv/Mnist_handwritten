@@ -25,7 +25,7 @@ def home():
 def img():  
      if request.method == "POST":
           l1= []
-          model = keras.models.load_model("mnist_model.keras")
+          model = keras.models.load_model("model.keras")
           newx = request.form.get('data')
           content = newx.split(';')[1]
           newy = content.split(',')[1]
