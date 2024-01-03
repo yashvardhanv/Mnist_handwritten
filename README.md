@@ -8,6 +8,8 @@ I tried deploying it on vercel but it took so long to deploy. Maybe because it u
 ![pic1](https://github.com/yashvardhanv/Mnist_handwritten/assets/49940157/a2e0131d-234e-4ac8-91db-444690a3c8f1)
 
 2.
-![screenshot](pic2.JPG?raw=true)
+![pic2](https://github.com/yashvardhanv/Mnist_handwritten/assets/49940157/c7dbd6cf-9a39-46f2-9e7d-b5284a860ccb)
+
 3.
-![screenshot](pic3.JPG?raw=true)
+![pic3](https://github.com/yashvardhanv/Mnist_handwritten/assets/49940157/252d354b-cabe-4b9e-a1c0-85a6b5fc0139)
+
