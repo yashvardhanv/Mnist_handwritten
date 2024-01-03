@@ -5,7 +5,8 @@ mnist.keras is a dumped model trained on local machine and another.keras is trai
 
 I tried deploying it on vercel but it took so long to deploy. Maybe because it uses large libraries such as tensorflow and slug size exceeds 300mb. It might work by only using tensorflow-cpu but that would take another 40 min to deploy . So, here are some snapshots of website.
 1.
-![screenshot](pic1.JPEG?raw=true)
+![pic1](https://github.com/yashvardhanv/Mnist_handwritten/assets/49940157/a2e0131d-234e-4ac8-91db-444690a3c8f1)
+
 2.
 ![screenshot](pic2.JPG?raw=true)
 3.
